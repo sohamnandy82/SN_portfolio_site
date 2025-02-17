@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! 🎨💻
 
 ## 🌟 About This Project
-This is my **frontend developer portfolio**, showcasing my skills, projects, and experience as I transition into a **full-stack role**. The website is built with **HTML, CSS, JavaScript**, and features a **dark/light theme toggle, responsive design**, and a **language switcher (English & German).**
+This is my **frontend developer portfolio**, showcasing my skills, projects, and experience as I transition into a **full-stack role**. The website is built with **HTML, CSS, JavaScript**, and features a **dark/light theme toggle, responsive design**.**
 
 ## 🔥 Features
 - 🎨 **Modern, Responsive UI**
