@@ -1,0 +1,427 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+   
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <title>Soham Nandy's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          
+          <h1 class="h1">
+            <span>Hi, I'm Soham Nandy</span>
+          </h1>
+
+          
+          <p class="header-text">
+            I am a passionate Full-Stack Developer with expertise in both frontend and backend development,
+             specializing in MERN stack and modern web technologies. I enjoy building scalable, 
+             efficient, and user-friendly applications, solving complex problems, and continuously learning 
+             new technologies.I am currently open to new opportunities and available for hire to contribute my skills to innovative projects.
+                     </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Worked At</h2>
+          <div class="logos">
+            
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/ivi_logo.png"
+                alt="IVI"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/Airports_Authority_of_India_logo.svg.png"
+                alt="AAI"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/Fraunhofer_IKTS_Logo.png"
+                alt="IKTS"
+                class="logo hide to-bottom"
+              />
+                          
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/ivi_logo.png"
+                alt="IVI"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/Fraunhofer_IKTS_Logo.png"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/aon.png"
+                alt="Shopify"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/aon.png"
+                alt="AON"
+                class="logo hide to-top"
+              /><img
+                loading="lazy"
+                src="assets/images/trusted-by/Airports_Authority_of_India_logo.svg.png"
+                alt="AAII"
+                class="logo"
+
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/Fraunhofer_IKTS_Logo.png"
+                alt="IKTS"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/aon.png"
+                alt="Bulls eye"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/ivi_logo.png"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/Fraunhofer_IKTS_Logo.png"
+                alt="IKTS"
+                class="logo hide to-bottom"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Selected Work</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                
+                <h3 class="h3">Gym Website</h3>
+                
+                <p class="work-text">
+                  A Basic gym website for beginners.
+                </p>
+                
+                <ol class="work-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Adobe</li>
+                 </ol>
+
+                <div class="work-links">
+                  
+                  <a href="https://github.com/sohamnandy82/Gym-Basic-Website" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                  
+                  <a
+                    href="https://github.com/sohamnandy82/Gym-Basic-Website"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+
+         
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/GYM web screen.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">LetsChat Messaging App</h3>
+                <p class="work-text">A social Media messaging App</p>
+                <ol class="work-technologies">
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>MongoDB</li>
+                  <li>Postman API</li>
+                </ol>
+                <div class="work-links">
+                 
+                  <a href="https://github.com/sohamnandy82/LetsChat" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                  <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/agency-elevation.webp"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                
+                <h3 class="h3">Master Thesis Report</h3>
+                
+                <p class="work-text">
+                  MY Master's thesis
+                </p>
+                <ol class="work-technologies">
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Selenium </li>
+                </ol>
+                <div class="work-links">
+                  
+                  <a href="https://github.com/sohamnandy82/Thesis-report" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                  
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/Block View.png"
+                  alt="Block View"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/PostgreSQL.png" alt="PostgreSQL" class="skills-img" loading="lazy" title="PostgreSQL">
+                 <img src="assets/images/skills/Python.png" alt="Python" class="skills-img" loading="lazy" title="Python">
+                 <img src="assets/images/skills/NodeJS.png" alt="NodeJS" class="skills-img" loading="lazy" title="NodeJS">
+                 <img src="assets/images/skills/Java.png" alt="Java" class="skills-img" loading="lazy" title="Java">
+                 <img src="assets/images/skills/MySQL.png" alt="MySQL" class="skills-img" loading="lazy" title="MySQL">
+                 <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                 <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+                 <img src="assets/images/skills/Kotlin.png" alt="Kotlin" class="skills-img" loading="lazy" title="Kotlin">
+                 <img src="assets/images/skills/NPM.png" alt="npm" class="skills-img" loading="lazy" title="npm">
+                 <img src="assets/images/skills/Plotly.png" alt="Plotly" class="skills-img" loading="lazy" title="Plotly">
+                 <img src="assets/images/skills/Postman.png" alt="Postman API" class="skills-img" loading="lazy" title="Postman API">
+                 <img src="assets/images/skills/Mongodb.png" alt="MongoDB" class="skills-img" loading="lazy" title="MongoDB">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                I am a software developer, with experience in front end and full-stack roles 
+                and I am passionate about building scalable applications 
+                and solving real-world problems with clean, efficient code..
+              </p>
+              <p class="contact-text">
+                I'm also a fitness enthusiast and love to play 
+                outdoor sports like soccer and cricket. In my free time
+                I like to travel and explore new places.
+              </p>
+              <p>
+                Contact Info :<br> 
+                Email: sohamnandy1997@gmail.com<br>       
+                Mobile: +491628174771
+              </p>
+
+
+              <img
+                src="assets/images/signatures.png"
+                alt="Soham Nandy"
+                class="signatures"
+                loading="lazy"
+              />
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/sohamnandy82" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+                            <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/soham-nandy-723a77200/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>             
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2025</span> - Template designed & developed by <a target="_blank" rel="noopener">Soham Nandy.</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
