@@ -13,7 +13,7 @@ This is my **frontend developer portfolio**, showcasing my skills, projects, and
 - ⚡ **Fast & Optimized for SEO**
 
 ## 🚀 Live Demo
-Check it out live 👉 **[Portfolio Website]([https://your-netlify-link.netlify.app/](https://sohamnandyportfolio.netlify.app/))**  
+Check it out live 👉 **[https://sohamnandyportfolio.netlify.app/]**  
 
 ## 🛠️ Technologies Used
 - **HTML, CSS, JavaScript**
